@@ -1,0 +1,17 @@
+{
+  "name": "4_react-redux-103",
+  "version": "1.0.0",
+  "description": "react redux app",
+  "main": "index.js",
+  "scripts": {
+    "2js": "babel --presets react,es2015 src --out-dir buildReact",
+    "pack": "webpack buildReact/index.js build/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "saumya",
+  "license": "MIT"
+}
