@@ -1,8 +1,8 @@
 import React from 'react'
 
-const TopNavTitle = ({title}) => (
+const TopNavTitle = (props) => (
     <div>
-      {title}
+      {props.title}
     </div>
 )
 
