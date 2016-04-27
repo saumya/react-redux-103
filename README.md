@@ -1,4 +1,4 @@
-React-Redux-102
+React-Redux-103
 ===================
 This is a direct implementation from [this redux official document][1].
 
