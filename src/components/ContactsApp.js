@@ -4,11 +4,12 @@ import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
 
 import TopNavTitle from './TopNavTitle'
+import AddContact from '../containers/AddContact'
 
 const App = () => (
   <div>
     <TopNavTitle title="Contacts Application" />
-    <AddTodo />
+    <AddContact />
     <VisibleTodoList />
     <Footer />
   </div>
