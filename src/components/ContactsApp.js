@@ -8,10 +8,13 @@ import AddContact from '../containers/AddContact'
 
 const App = () => (
   <div>
-    <TopNavTitle title="Contacts Application" />
-    <AddContact />
+    <TopNavTitle title="TODO Application" />
+    <AddTodo />
     <VisibleTodoList />
     <Footer />
+
+    <TopNavTitle title="Contacts Application" />
+    <AddContact />
   </div>
 )
 
