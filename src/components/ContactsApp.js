@@ -18,7 +18,7 @@ const App = () => (
       */
     }
 
-
+    <Footer />
     <TopNavTitle title="Contacts Application" />
     <AddContact />
   </div>
