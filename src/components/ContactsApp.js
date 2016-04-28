@@ -9,16 +9,6 @@ import HeaderContacts from './HeaderContacts'
 
 const App = () => (
   <div>
-    {
-      // Old application is here for reference
-      /*
-      <TopNavTitle title="TODO Application" />
-      <AddTodo />
-      <VisibleTodoList />
-      <Footer />
-      */
-    }
-
     <HeaderContacts />
     <TopNavTitle title="Contacts Application" />
     <AddContact />
