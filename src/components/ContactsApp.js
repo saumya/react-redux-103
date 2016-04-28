@@ -12,6 +12,8 @@ const App = () => (
     <HeaderContacts />
     <TopNavTitle title="Contacts Application" />
     <AddContact />
+
+    <VisibleTodoList />
   </div>
 )
 

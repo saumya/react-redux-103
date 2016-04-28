@@ -1,5 +1,10 @@
 const todo = (state, action) => {
-  console.log('todo');
+
+  console.group('todo');
+  console.log('state',state);
+  console.log('action',action);
+  console.groupEnd();
+
   switch (action.type) {
     case 'ADD_TODO':
       return {
@@ -22,7 +27,12 @@ const todo = (state, action) => {
 }
 
 const todos = (state = [], action) => {
-  console.log('todos');
+
+  console.group('todos : todos');
+  console.log('state',state);
+  console.log('action',action);
+  console.groupEnd();
+
   switch (action.type) {
     case 'ADD_TODO':
       return [
