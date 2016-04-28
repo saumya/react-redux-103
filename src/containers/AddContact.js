@@ -20,7 +20,7 @@ let AddContact = ({ dispatch }) => {
         if (!input1.value.trim() || !input2.value.trim() ) {
           return
         }
-        dispatch(addTodo(input1.value))
+        dispatch(addTodo(input1.value,input2.value))
         input1.value = input2.value = ''
       }}>
         <input ref={node1 => { input1 = node1 }} />

@@ -1,9 +1,13 @@
 let nextTodoId = 0
-export const addTodo = (text) => {
+export const addTodo = (text1,text2) => {
+  console.group('actions : index : addTodo');
+  console.log('text1',text1,' : text2',text2)
+  console.groupEnd();
   return {
     type: 'ADD_TODO',
     id: nextTodoId++,
-    text
+    text: text1,
+    phone: text2
   }
 }
 

@@ -1,6 +1,6 @@
 const todo = (state, action) => {
 
-  console.group('todo');
+  console.group('reducers : todos : todo');
   console.log('state',state);
   console.log('action',action);
   console.groupEnd();
@@ -10,6 +10,7 @@ const todo = (state, action) => {
       return {
         id: action.id,
         text: action.text,
+        phone: action.phone,
         completed: false
       }
     case 'TOGGLE_TODO':
@@ -28,7 +29,7 @@ const todo = (state, action) => {
 
 const todos = (state = [], action) => {
 
-  console.group('todos : todos');
+  console.group('reducers : todos : todos');
   console.log('state',state);
   console.log('action',action);
   console.groupEnd();
