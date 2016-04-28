@@ -4,8 +4,8 @@ import visibilityFilter from './visibilityFilter'
 import myFilter from './myFilter'
 
 const todoApp = combineReducers({
-  myFilter,
   todos,
+  myFilter,
   visibilityFilter,
 })
 
