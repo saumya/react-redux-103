@@ -2,6 +2,8 @@ React-Redux-103
 ===================
 This is a direct implementation from [this redux official document][1].
 
+Making changes to actual implementation to create new application features. Studying how to call REST APIs from the application.
+
 Uses
  - React
  - Redux
