@@ -5,6 +5,8 @@ This is a direct implementation from [this redux official document][1].
 Making changes to actual implementation to create new application features.
 Studying how to call REST APIs from the application.
 
+For API calls / REST calls I have [another repository][2] setup.
+
 
 
 Uses
@@ -27,3 +29,4 @@ npm install --save react-redux
 
 
 [1]: http://redux.js.org/docs/basics/ExampleTodoList.html
+[2]: https://github.com/saumya/react-redux-thunk-101
